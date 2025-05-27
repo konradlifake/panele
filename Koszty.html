@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Kalkulator kosztów</title>
+</head>
+<body>
+    <header>
+        <img src="motnaz_paneli.png" alt="firma usługowa">
+    </header>
+    <main>
+                        <nav>
+            <a href="index.html">Strona Główna</a>
+            <a href="oferta.html">Oferta</a>
+            <a href="Koszty.html">Kalkulator kosztów</a>
+        </nav>
+
+        <h1>Kalkulator kosztów montażu</h1>
+         Szerokość pomieszczenia [m]: <input type="number" name="Szerokość pomieszczenia" id="Szerokość"> Długość pomieszczenia [m] <input type="number" name="Długość pomieszczenia" id="Długość">
+         <p>Typ panelu</p>
+         <input type="radio" name="Panele" value="Laminowane" class="Panele"> Panele laminowane <br>
+         <input type="radio" name="Panele" value="Winylowe" class="Panele"> Panele winylowe <br>
+         <input type="radio" name="Panele" value="Deska" class="Panele"> Deska podłogowa <br>
+
+         <button>Oblicz</button>
+
+         <p id="wynik"></p>
+    </main>
+    <footer>
+        <h5>Autor strony:123456789 </h5>
+    </footer>
+
+    <script>
+        function Oblicz() {
+            var Szerokość = document.getElementById("Szerokość").value;
+            var Długość = document.getElementById("Długość").value;
+
+            
+        }
+    </script>
+</body>
+</html>
